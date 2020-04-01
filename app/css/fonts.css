@@ -1,0 +1,70 @@
+@font-face {font-family: "Segoe WP Light";
+  src: url("../fonts/SegoeWPlight/3fdb879e1f60a0c91e9b4bee114a0928.eot"); /* IE9*/
+  src: url("../fonts/SegoeWPlight/3fdb879e1f60a0c91e9b4bee114a0928.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/SegoeWPlight/3fdb879e1f60a0c91e9b4bee114a0928.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/SegoeWPlight/3fdb879e1f60a0c91e9b4bee114a0928.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/SegoeWPlight/3fdb879e1f60a0c91e9b4bee114a0928.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/SegoeWPlight/3fdb879e1f60a0c91e9b4bee114a0928.svg#Segoe WP Light") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Segoe WPN";
+  src: url("../fonts/SegoeWPN/e0e4015ec8dc1e11fb69ed1a5de22f58.eot"); /* IE9*/
+  src: url("../fonts/SegoeWPN/e0e4015ec8dc1e11fb69ed1a5de22f58.eot#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/SegoeWPN/e0e4015ec8dc1e11fb69ed1a5de22f58.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/SegoeWPN/e0e4015ec8dc1e11fb69ed1a5de22f58.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/SegoeWPN/e0e4015ec8dc1e11fb69ed1a5de22f58.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/SegoeWPN/e0e4015ec8dc1e11fb69ed1a5de22f58.svg#Segoe WPN") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/Icomoon/icomoon.eot?y6hg60');
+  src:  url('../fonts/Icomoon/icomoon.eot?y6hg60#iefix') format('embedded-opentype'),
+    url('../fonts/Icomoon/icomoon.ttf?y6hg60') format('truetype'),
+    url('../fonts/Icomoon/icomoon.woff?y6hg60') format('woff'),
+    url('../fonts/Icomoon/icomoon.svg?y6hg60#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/Icomoon/icomoon.eot?80zw7h');
+  src:  url('../fonts/Icomoon/icomoon.eot?80zw7h#iefix') format('embedded-opentype'),
+    url('../fonts/Icomoon/icomoon.ttf?80zw7h') format('truetype'),
+    url('../fonts/Icomoon/icomoon.woff?80zw7h') format('woff'),
+    url('../fonts/Icomoon/icomoon.svg?80zw7h#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  /* font-family: 'icomoon' !important; */
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-left-chevron:before {
+  content: "\e902";
+}
+.icon-right-chevron:before {
+  content: "\e903";
+}
+.icon-checkmark:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-checkmark_hover:before {
+  content: "\e901";
+}
